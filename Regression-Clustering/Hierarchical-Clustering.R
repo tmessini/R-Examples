@@ -94,9 +94,9 @@ complete_list
 
 #######################################
 #### [d] calculate the means of features 'cyl' and 'hp' of clusters 1 and 3
-### Calculation for Single Linkage ###
 #######################################
 
+### Calculation for Single Linkage ###
 single_mean_cyl_1 <- mean(mtcars[single_clusters == 1, "cyl"])
 single_mean_hp_1  <- mean(mtcars[single_clusters == 1, "hp"])
 
